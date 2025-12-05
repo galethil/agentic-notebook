@@ -1,4 +1,4 @@
-[
+export default [
   {
     "path": "00_INBOX",
     "name": "INBOX",

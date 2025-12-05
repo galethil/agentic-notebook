@@ -3,7 +3,7 @@ import { ChatOllama } from "@langchain/ollama";
 import * as z from "zod";
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({quiet: true});
 
 const model = new ChatOllama({
   model: process.env.OLLAMA_MODEL || "llama3.1:8b",
@@ -13,7 +13,16 @@ const model = new ChatOllama({
 
 const weather = tool(
   ({ location }) => {
-    return `Results for: ${location}. Rainy, 22°C.`
+    if (location === "Bratislava") {
+      return `Results for: ${location}. Sunny, 25°C.`
+    }
+    if (location === "London") {
+      return `Results for: ${location}. Cloudy, 15°C.`
+    }
+    if (location === "New York") {
+      return `Results for: ${location}. Windy, 20°C.`
+    }
+    return `Unable to get weather for: ${location}.`
   },
   {
     name: "weather",
@@ -31,7 +40,7 @@ const agent = createAgent({
 
 const run = async () => {
   const response = await agent.invoke({
-    messages: "What is the weather currently in Bratislava?"
+    messages: "What is the weather currently in Bratslava?"
   });
   console.log("Response:", response);
 }
