@@ -1,0 +1,613 @@
+[
+  {
+    "path": "00_INBOX",
+    "name": "INBOX",
+    "description": "Quick capture area for any unprocessed notes, tasks, or ideas."
+  },
+  {
+    "path": "00_INBOX/To_Process",
+    "name": "To_Process",
+    "description": "Notes that need categorization or moving into proper folders."
+  },
+  {
+    "path": "00_INBOX/Voice_Transcriptions",
+    "name": "Voice_Transcriptions",
+    "description": "Audio-to-text notes waiting to be processed."
+  },
+
+  {
+    "path": "01_DASHBOARD",
+    "name": "DASHBOARD",
+    "description": "Top-level overview, planning, and navigation notes."
+  },
+  {
+    "path": "01_DASHBOARD/Daily_View",
+    "name": "Daily_View",
+    "description": "Daily plan, priorities, links to journal entries."
+  },
+  {
+    "path": "01_DASHBOARD/Weekly_Planner",
+    "name": "Weekly_Planner",
+    "description": "Weekly goals and tasks overview."
+  },
+  {
+    "path": "01_DASHBOARD/Monthly_Review",
+    "name": "Monthly_Review",
+    "description": "Retrospective and progress tracking per month."
+  },
+  {
+    "path": "01_DASHBOARD/Yearly_Goals",
+    "name": "Yearly_Goals",
+    "description": "Long-term goals and annual vision."
+  },
+
+  {
+    "path": "02_JOURNAL",
+    "name": "JOURNAL",
+    "description": "All diary-style entries and personal reflections."
+  },
+  {
+    "path": "02_JOURNAL/Daily",
+    "name": "Daily",
+    "description": "Daily journal entries."
+  },
+  {
+    "path": "02_JOURNAL/Weekly",
+    "name": "Weekly",
+    "description": "Weekly reviews or reflections."
+  },
+  {
+    "path": "02_JOURNAL/Monthly",
+    "name": "Monthly",
+    "description": "Monthly summaries and analysis."
+  },
+  {
+    "path": "02_JOURNAL/Milestones",
+    "name": "Milestones",
+    "description": "Important events or accomplishments in life."
+  },
+  {
+    "path": "02_JOURNAL/Life_Log",
+    "name": "Life_Log",
+    "description": "Logs of actions, events, or activities you completed."
+  },
+
+  {
+    "path": "03_PROJECTS",
+    "name": "PROJECTS",
+    "description": "Active projects with end goals or deliverables."
+  },
+  {
+    "path": "03_PROJECTS/Work",
+    "name": "Work_Projects",
+    "description": "Projects related to your job or clients."
+  },
+  {
+    "path": "03_PROJECTS/Personal",
+    "name": "Personal_Projects",
+    "description": "Personal initiatives like house renovation or learning."
+  },
+  {
+    "path": "03_PROJECTS/Family",
+    "name": "Family_Projects",
+    "description": "Family-related projects requiring planning and coordination."
+  },
+  {
+    "path": "03_PROJECTS/Community",
+    "name": "Community_Projects",
+    "description": "Volunteer, activism, or local community projects."
+  },
+
+  {
+    "path": "04_AREAS",
+    "name": "AREAS",
+    "description": "Long-term responsibilities and ongoing domains of life."
+  },
+
+  {
+    "path": "04_AREAS/Work",
+    "name": "Work",
+    "description": "All ongoing professional responsibilities."
+  },
+  {
+    "path": "04_AREAS/Work/Engineering",
+    "name": "Engineering",
+    "description": "Technical topics, tools, and engineering reference notes."
+  },
+  {
+    "path": "04_AREAS/Work/Engineering/Kubernetes",
+    "name": "Kubernetes",
+    "description": "Kubernetes notes, commands, and knowledge."
+  },
+  {
+    "path": "04_AREAS/Work/Engineering/DevOps",
+    "name": "DevOps",
+    "description": "CI/CD, automation, infrastructure, and DevOps knowledge."
+  },
+  {
+    "path": "04_AREAS/Work/Engineering/NodeJS",
+    "name": "NodeJS",
+    "description": "Node.js patterns, libraries, notes and snippets."
+  },
+  {
+    "path": "04_AREAS/Work/Engineering/React",
+    "name": "React",
+    "description": "React knowledge, components, patterns."
+  },
+  {
+    "path": "04_AREAS/Work/Engineering/Architecture",
+    "name": "Architecture",
+    "description": "System design and architectural notes."
+  },
+
+  {
+    "path": "04_AREAS/Work/Leadership",
+    "name": "Leadership",
+    "description": "Management, communication, soft skills, and mentoring."
+  },
+  {
+    "path": "04_AREAS/Work/Leadership/People_Management",
+    "name": "People_Management",
+    "description": "Managing individuals, feedback, 1:1s, and team development."
+  },
+  {
+    "path": "04_AREAS/Work/Leadership/Team_Processes",
+    "name": "Team_Processes",
+    "description": "Agile routines, workflows, team agreements."
+  },
+  {
+    "path": "04_AREAS/Work/Leadership/Mentoring",
+    "name": "Mentoring",
+    "description": "Notes around guiding others and coaching."
+  },
+  {
+    "path": "04_AREAS/Work/Leadership/Soft_Skills",
+    "name": "Soft_Skills",
+    "description": "Communication, influence, and collaboration skills."
+  },
+
+  {
+    "path": "04_AREAS/Work/Career_Development",
+    "name": "Career_Development",
+    "description": "Career plans, performance reviews, and goals."
+  },
+
+  {
+    "path": "04_AREAS/Personal_Life",
+    "name": "Personal_Life",
+    "description": "Daily life, health, habits, home, finances, hobbies."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Health",
+    "name": "Health",
+    "description": "Health records, habits, fitness, medical notes."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Health/Fitness",
+    "name": "Fitness",
+    "description": "Workouts, fitness plans, and training notes."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Health/Nutrition",
+    "name": "Nutrition",
+    "description": "Diet, meal plans, food tracking."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Health/Mental_Health",
+    "name": "Mental_Health",
+    "description": "Mindfulness, therapy notes, emotional health."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Health/Medical_Notes",
+    "name": "Medical_Notes",
+    "description": "Doctor visits, prescriptions, medical history."
+  },
+
+  {
+    "path": "04_AREAS/Personal_Life/Finances",
+    "name": "Finances",
+    "description": "Budgeting, expenses, investments, and money management."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Finances/Budget",
+    "name": "Budget",
+    "description": "Monthly budgets and financial planning."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Finances/Investments",
+    "name": "Investments",
+    "description": "Investing notes and tracking."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Finances/Taxes",
+    "name": "Taxes",
+    "description": "Tax records and planning."
+  },
+
+  {
+    "path": "04_AREAS/Personal_Life/Home_and_Living",
+    "name": "Home_and_Living",
+    "description": "Home maintenance, routines, and practical things."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Home_and_Living/Cleaning",
+    "name": "Cleaning",
+    "description": "Cleaning routines and household maintenance notes."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Home_and_Living/Shopping_Lists",
+    "name": "Shopping_Lists",
+    "description": "Shopping and grocery lists."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Home_and_Living/Appliances",
+    "name": "Appliances",
+    "description": "Appliance manuals, maintenance schedules."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Home_and_Living/Renovation_Notes",
+    "name": "Renovation_Notes",
+    "description": "Notes about home reconstruction and upgrades."
+  },
+
+  {
+    "path": "04_AREAS/Personal_Life/Hobbies",
+    "name": "Hobbies",
+    "description": "Hobby-related notes and activities."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Hobbies/Music",
+    "name": "Music",
+    "description": "Music interests, playlists, playing notes."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Hobbies/Photography",
+    "name": "Photography",
+    "description": "Photography techniques and project ideas."
+  },
+  {
+    "path": "04_AREAS/Personal_Life/Hobbies/Gaming",
+    "name": "Gaming",
+    "description": "Games, achievements, tips."
+  },
+
+  {
+    "path": "04_AREAS/Personal_Life/Relationship",
+    "name": "Relationship",
+    "description": "Relationship notes, dates, communication."
+  },
+
+  {
+    "path": "04_AREAS/Parenting",
+    "name": "Parenting",
+    "description": "Everything related to raising a child."
+  },
+  {
+    "path": "04_AREAS/Parenting/Child_Development",
+    "name": "Child_Development",
+    "description": "Notes about child's milestones and development knowledge."
+  },
+  {
+    "path": "04_AREAS/Parenting/Child_Development/Psychology",
+    "name": "Psychology",
+    "description": "Child psychology and behavior patterns."
+  },
+  {
+    "path": "04_AREAS/Parenting/Child_Development/Milestones",
+    "name": "Milestones",
+    "description": "Tracking child's developmental stages."
+  },
+  {
+    "path": "04_AREAS/Parenting/Child_Development/Activities",
+    "name": "Activities",
+    "description": "Games, learning and fun activities for children."
+  },
+
+  {
+    "path": "04_AREAS/Parenting/Education",
+    "name": "Education",
+    "description": "Schooling, learning methods, educational tools."
+  },
+  {
+    "path": "04_AREAS/Parenting/Health_and_Safety",
+    "name": "Health_and_Safety",
+    "description": "Child wellness, safety rules, health notes."
+  },
+
+  {
+    "path": "04_AREAS/Community",
+    "name": "Community",
+    "description": "Volunteering, activism, and social contributions."
+  },
+  {
+    "path": "04_AREAS/Community/Activism",
+    "name": "Activism",
+    "description": "Political and social activism notes."
+  },
+  {
+    "path": "04_AREAS/Community/Volunteering",
+    "name": "Volunteering",
+    "description": "Volunteering projects and organization notes."
+  },
+  {
+    "path": "04_AREAS/Community/Events",
+    "name": "Events",
+    "description": "Community or public events planning."
+  },
+
+  {
+    "path": "04_AREAS/Learning",
+    "name": "Learning",
+    "description": "Personal growth, education, ongoing learning."
+  },
+  {
+    "path": "04_AREAS/Learning/Languages",
+    "name": "Languages",
+    "description": "Language learning notes."
+  },
+  {
+    "path": "04_AREAS/Learning/Tech",
+    "name": "Tech_Learning",
+    "description": "Technical learning resources."
+  },
+  {
+    "path": "04_AREAS/Learning/History",
+    "name": "History",
+    "description": "Historical knowledge and notes."
+  },
+  {
+    "path": "04_AREAS/Learning/Science",
+    "name": "Science",
+    "description": "Scientific topics, theories, explanations."
+  },
+  {
+    "path": "04_AREAS/Learning/Philosophy",
+    "name": "Philosophy",
+    "description": "Thoughts, philosophy notes, ethics."
+  },
+
+  {
+    "path": "05_RESOURCES",
+    "name": "RESOURCES",
+    "description": "Reference materials, permanent knowledge, summaries."
+  },
+
+  {
+    "path": "05_RESOURCES/Life",
+    "name": "Life",
+    "description": "General living knowledge, guides, and tips."
+  },
+  {
+    "path": "05_RESOURCES/Life/Cooking",
+    "name": "Cooking",
+    "description": "Recipes, food tips, meal knowledge."
+  },
+  {
+    "path": "05_RESOURCES/Life/Parenting",
+    "name": "Parenting_Resources",
+    "description": "Long-term parenting knowledge and references."
+  },
+  {
+    "path": "05_RESOURCES/Life/Minimalism",
+    "name": "Minimalism",
+    "description": "Decluttering and simplifying life notes."
+  },
+  {
+    "path": "05_RESOURCES/Life/Travel",
+    "name": "Travel_Resources",
+    "description": "Travel knowledge, tips, packing lists."
+  },
+
+  {
+    "path": "05_RESOURCES/Work",
+    "name": "Work_Resources",
+    "description": "Permanent, reusable work-related knowledge."
+  },
+  {
+    "path": "05_RESOURCES/Work/Commands",
+    "name": "Commands",
+    "description": "Commands and quick reference cheatsheets."
+  },
+  {
+    "path": "05_RESOURCES/Work/Commands/Git",
+    "name": "Git",
+    "description": "Git commands and workflows."
+  },
+  {
+    "path": "05_RESOURCES/Work/Commands/Kubernetes",
+    "name": "Kubernetes_Commands",
+    "description": "kubectl commands and cluster management notes."
+  },
+  {
+    "path": "05_RESOURCES/Work/Commands/Linux",
+    "name": "Linux",
+    "description": "Shell commands, scripts, admin knowledge."
+  },
+  {
+    "path": "05_RESOURCES/Work/Commands/Docker",
+    "name": "Docker",
+    "description": "Docker commands and container tips."
+  },
+
+  {
+    "path": "05_RESOURCES/Work/Engineering_Wisdom",
+    "name": "Engineering_Wisdom",
+    "description": "Best practices, senior engineering insights."
+  },
+  {
+    "path": "05_RESOURCES/Work/Design_Patterns",
+    "name": "Design_Patterns",
+    "description": "System, code, and architectural patterns."
+  },
+  {
+    "path": "05_RESOURCES/Work/Reference_Sheets",
+    "name": "Reference_Sheets",
+    "description": "Quick lookup tables and technical cheat sheets."
+  },
+
+  {
+    "path": "05_RESOURCES/Research",
+    "name": "Research",
+    "description": "Deeper knowledge sources, books, papers, courses."
+  },
+  {
+    "path": "05_RESOURCES/Research/Papers",
+    "name": "Papers",
+    "description": "Scientific or technical paper notes."
+  },
+  {
+    "path": "05_RESOURCES/Research/Notes",
+    "name": "Research_Notes",
+    "description": "Notes taken from academic or deep research."
+  },
+  {
+    "path": "05_RESOURCES/Research/Book_Summaries",
+    "name": "Book_Summaries",
+    "description": "Summaries and insights from books."
+  },
+  {
+    "path": "05_RESOURCES/Research/Courses",
+    "name": "Courses",
+    "description": "Course notes and learnings."
+  },
+
+  {
+    "path": "05_RESOURCES/Tools",
+    "name": "Tools",
+    "description": "Notes on using different personal or work-related tools."
+  },
+  {
+    "path": "05_RESOURCES/Tools/Productivity",
+    "name": "Productivity",
+    "description": "Tools improving organization and efficiency."
+  },
+  {
+    "path": "05_RESOURCES/Tools/Writing",
+    "name": "Writing",
+    "description": "Writing tools, style guides, templates."
+  },
+  {
+    "path": "05_RESOURCES/Tools/AI",
+    "name": "AI",
+    "description": "AI tools, prompts, workflows."
+  },
+  {
+    "path": "05_RESOURCES/Tools/Software",
+    "name": "Software",
+    "description": "Software tools and configurations."
+  },
+  {
+    "path": "05_RESOURCES/Tools/Hardware",
+    "name": "Hardware",
+    "description": "Notes on physical tools, gadgets, and gear."
+  },
+
+  {
+    "path": "06_MEDIA",
+    "name": "MEDIA",
+    "description": "Lists and notes of all kinds of media consumed or to consume."
+  },
+  {
+    "path": "06_MEDIA/Books",
+    "name": "Books",
+    "description": "Books read or planned to read."
+  },
+  {
+    "path": "06_MEDIA/Movies",
+    "name": "Movies",
+    "description": "Movies watched or on the watchlist."
+  },
+  {
+    "path": "06_MEDIA/Series",
+    "name": "Series",
+    "description": "TV series notes and recommendations."
+  },
+  {
+    "path": "06_MEDIA/Music",
+    "name": "Music",
+    "description": "Music interests, lists, and notes."
+  },
+  {
+    "path": "06_MEDIA/Podcasts",
+    "name": "Podcasts",
+    "description": "Podcasts and episode notes."
+  },
+  {
+    "path": "06_MEDIA/Games",
+    "name": "Games",
+    "description": "Video games played or planned."
+  },
+
+  {
+    "path": "07_IDEAS",
+    "name": "IDEAS",
+    "description": "Creative ideation, brainstorming, business and app ideas."
+  },
+  {
+    "path": "07_IDEAS/Business_Ideas",
+    "name": "Business_Ideas",
+    "description": "Business concepts and market opportunities."
+  },
+  {
+    "path": "07_IDEAS/App_Ideas",
+    "name": "App_Ideas",
+    "description": "Ideas for apps, SaaS, or tools."
+  },
+  {
+    "path": "07_IDEAS/Workshop_Ideas",
+    "name": "Workshop_Ideas",
+    "description": "Workshop or training ideas."
+  },
+  {
+    "path": "07_IDEAS/Writing",
+    "name": "Writing_Ideas",
+    "description": "Story, article, blog, or writing concepts."
+  },
+  {
+    "path": "07_IDEAS/Random",
+    "name": "Random_Ideas",
+    "description": "Miscellaneous ideas without a category."
+  },
+
+  {
+    "path": "08_ARCHIVE",
+    "name": "ARCHIVE",
+    "description": "Completed or inactive items stored for record-keeping."
+  },
+  {
+    "path": "08_ARCHIVE/Completed_Projects",
+    "name": "Completed_Projects",
+    "description": "Finished past projects."
+  },
+  {
+    "path": "08_ARCHIVE/Old_Notes",
+    "name": "Old_Notes",
+    "description": "Outdated but still potentially useful notes."
+  },
+  {
+    "path": "08_ARCHIVE/Someday_Maybe",
+    "name": "Someday_Maybe",
+    "description": "Ideas or plans to revisit in the future."
+  },
+
+  {
+    "path": "99_SYSTEM",
+    "name": "SYSTEM",
+    "description": "Templates, metadata, and automation."
+  },
+  {
+    "path": "99_SYSTEM/Templates",
+    "name": "Templates",
+    "description": "Templates for journal, projects, meetings, notes."
+  },
+  {
+    "path": "99_SYSTEM/Metadata",
+    "name": "Metadata",
+    "description": "Vault-level metadata like tag lists or index files."
+  },
+  {
+    "path": "99_SYSTEM/Scripts",
+    "name": "Scripts",
+    "description": "Automation scripts or helpers for the vault."
+  }
+]

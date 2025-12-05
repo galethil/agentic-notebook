@@ -1,0 +1,34 @@
+{
+  "name": "agent-notebook",
+  "version": "1.0.0",
+  "description": "Small application that will help you organise your notes with help from AI.",
+  "keywords": [
+    "ai",
+    "LLM",
+    "notes"
+  ],
+  "license": "ISC",
+  "author": "galethil",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.3",
+    "@langchain/ollama": "^1.0.3",
+    "dotenv": "^17.2.3",
+    "langchain": "^1.1.4",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
