@@ -1,6 +1,5 @@
-import { createAgent, tool } from "langchain";
+import { createAgent } from "langchain";
 import { ChatOllama } from "@langchain/ollama";
-import * as z from "zod";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -10,7 +9,6 @@ const model = new ChatOllama({
   temperature: 0.7,
   maxRetries: 2,
 })
-
 
 const agent = createAgent({
   model,

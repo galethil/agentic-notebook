@@ -18,6 +18,7 @@
     "tool-chaining": "tsx agent-tool-chaining.ts",
     "tool-chaining-openai": "tsx agent-tool-chaining-openai.ts",
     "notebook": "tsx agent-notebook.ts",
+    "memory": "tsx agent-memory.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
