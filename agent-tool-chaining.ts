@@ -56,7 +56,7 @@ const addressBook = tool(
 const agent = createAgent({
   model,
   tools: [addressBook, events],
-  systemPrompt: `You are an intelligent agent that can use tools to answer user queries. Use only information from provided context. Answer shortly only with one sentence and factually. Answer only what is asked.`, // Make sure to always use both tools when necessary to provide accurate answers. Use events tool only with valid location from addressBook tool.
+  systemPrompt: `You are an intelligent agent that can use tools to answer user queries. Use only information from provided context. Answer factually and shortly, only with one sentence. Answer only what is asked.`, // Make sure to always use both tools when necessary to provide accurate answers. Use events tool only with valid location from addressBook tool.
 });
 
 const run = async () => {
