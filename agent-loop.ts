@@ -1,11 +1,8 @@
-import { MemorySaver } from '@langchain/langgraph';
 import { ChatOllama } from '@langchain/ollama';
 import dotenv from 'dotenv';
 import { createAgent, HumanMessage } from 'langchain';
 
 dotenv.config({ quiet: true });
-
-const checkpointer = new MemorySaver();
 
 const model = new ChatOllama({
   model: process.env.OLLAMA_MODEL || 'llama3.1:8b',
@@ -16,7 +13,6 @@ const model = new ChatOllama({
 const agent = createAgent({
   model,
   tools: [],
-  checkpointer,
 });
 
 while (true) {
@@ -25,10 +21,9 @@ while (true) {
     process.stdin.once('data', data => resolve(data.toString().trim()));
   });
 
-  const response = await agent.invoke(
-    { messages: new HumanMessage(userInput) },
-    { configurable: { thread_id: '1' } }
-  );
+  const response = await agent.invoke({
+    messages: new HumanMessage(userInput),
+  });
   console.log(
     'Agent: ',
     response.messages[response.messages.length - 1].content
